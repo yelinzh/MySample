@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
 //                text.setText(MD5Utils.md5Password("zh12123"));
 //            }
 //        });
-        btn.setOnClickListener(view -> text.setText(MD5Utils.md5Password("zh12123")));
+        btn.setOnClickListener(view -> text.setText(MD5Utils.md5Password("zh12123_")));
 
     }
 }
